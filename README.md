@@ -90,8 +90,8 @@ I drew a horizontal line that passed through the longest distance without a hori
 
 ### Visualize the final result using the snake plot and heatmap
 A snake plot, or line chart, is a market research technique to compare different segments and visually present the attributes of each cluster. I created the plot by putting Metrics at x-axis and value at the y-axis and group the values by `RFM_Level`. Repeat the same code which groups the values by `K_Cluster` this time. The result is shown in Figure 8. It seems the Top and Low groups on the left plot are similar with 1 and 3 clusters on the right plot. And the 0 and 2 clusters seem to be merged into group Middle. On top of this, I also calculate the relative importance of each cluster's attributes compared to the population average. Generally, we would like to have my segments to be different from the overall population and have unique properties of their own. I did this by dividing the average value of each segment over the average value of population and subtracting 1, ensuring 0 is returned when the segment mean equals the population mean. The result is shown in Figure 9. One can quickly notice that the Top group correspond to cluster 3 in the heatmap and to what extent are the exact numeric values differ in the two groups.
-<p align="center">	
-	<img align="middle" width=700 src="images/Figure 8. Snake Plots">
+<p align="center">
+	<img align="middle" width=700 src="images/Figure 8. Snake Plots.png">
 </p>
 <p align="center">
   <i>Figure 8. Snake Plots</i> 
