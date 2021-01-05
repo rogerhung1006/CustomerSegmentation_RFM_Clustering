@@ -104,4 +104,7 @@ A snake plot, or line chart, is a market research technique to compare different
   <i>Figure 9. Heatmap of Relative Importance of Attributes</i> 
 </p>
 
-
+## Reference
+- DataCamp course “Customer Segmentation Analysis in Python.”
+- RFM (market research)-Wikipedia
+- [Hierarchical Clustering with Python and Scikit-Learn](https://stackabuse.com/hierarchical-clustering-with-python-and-scikit-learn)
